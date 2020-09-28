@@ -27,21 +27,25 @@ The user group for Find Cuisine is anyone with basic computer skills simply look
 * navigate a simple user interface to find the product they are after
 * be apart of a something bigger than themselves
 * here success stories on others goals and achievements since joining the website
-* reorganise products in order to find them based on certain criteria such as pricing or rating etc.
+* reorganise products in order to find them based on certain criteria such as pricing or rating etc
+* track your spending as you go about the website
 
 These ambitions are achieved through YourFIT by: 
 
-* Having recipes being dispayed from people all over the world that are sharing their own unique perspectives and ingredients
-* Having an easy to use interface with mininmal text and buttons so the user isn't lost on where to go
-* Featuring an Add Recipe page for registered users. Displayed in a simple form format making it as easy as a few clicks
-* Being able to store registration/log in details the user feels apart of a group of people all coming together to share and experience eachothers favourite foods 
+* Having programmes available to purchase that contain nutrition and exercise plans
+* Having several items of clothing on the site available to purchase with multiple sizing options
+* Featuring a simplistic navigation bar on both desktop and mobile with a very clear layout for users to navigate with ease
+* Being able to create an account to mark how you are apart of the YourFIT community
+* Read different success stories and reviews from previous users of programmes on the site
+* Find the best options and products to buy and being able to rearrange the listing to display the best objects first
+* providing a shopping cart feature in the top right of the screen displaying the sum total of all of your purchases
 
 ## User Stories
 
-As a general user who looks up/ shares recipes on the internet, I want to:
+As a general user who is looking to get into a new fitness/nutrition programme, I want to:
 
- * See where my created recipes go
- * Have quick access to all the recipes on the site
+ * See all available products for purchase and pay using Stripe
+ * Have quick access to my purchased goods in terms of 
  * Have reassuring messages flashed on screen to ensure I am doing the right thing on the website
  * Create my own recipes
  * Navigate the website without fear of being confused
@@ -90,17 +94,21 @@ As it stands the users profile page is a rather blank html page that simply disp
 
 Given more time I would add it in that on the users profile page their is a section that displays the users recipes and not anyone elses. Currently the user will have to sive through all the other recipes to check on their own. 
 
+## Community chat page
+
+Having a page where members of the YourFIT website can display their progress/ thoughts and opionions on a timeline to improve on the community aspect to the app
+
+
 
 # Technologies Used
 
  * HTML, CSS and JQuery were the programming languages used in the coding of this project.
- * For scaling Bootstrap CDN was used to add a more responsive website.
- * MongoDB used as the database to store all of the recipe details, user information and categories of food.
- * Gitpod used to deploy the project alongside Heroku.
- * Jinja used for templating with Flask in the HTML pages. Makes for a much simpler link from backend to frontend. 
- * Flask used as a python framework.
- * Font Awesome used for icons displayed throughout the website pages.
- * Pillow
+ * For scaling Bootstrap CDN was used to add a more responsive website
+ * Django has been incorporated to handle all of the backend for the project
+ * Gitpod used to deploy the project alongside Heroku
+ * materialise has been used for certain grid layouts and sidebars
+ * Font Awesome used for icons displayed throughout the website pages
+ * Pillow is being used for processing images on the website products
 
 # Mock Up Designs
 
@@ -202,13 +210,13 @@ https://github.com/joedoyler/Project4_DCD_FindCuisine
 
 ## Content & Acknowledgements
 
-A massive influence for this project came directly from the course content available to students. The Task Manager project had many logical similarities to fulfilling the needs of the project itself with some features missing from it such as the visual aid of having the image added to the recipe section. 
+A massive influence for this project came directly from the course content available to students. The Ecommerce Boutique Ado project had many logical similarities to fulfilling some of the needs of the project itself with some features missing from it such as the review section and setting up the exercise and nutrition plans. 
 
-The styling for the index page is influenced by https://www.youtube.com/watch?v=iM27kA5M3vo video on creating a restaurant page.
+The styling for the index page is influenced by both the course material and https://www.youtube.com/watch?v=Imxx1ClWZj8&t=170s video on creating a gmy website. I found the frontend to be quite visually. This method of picture on left and content on the right is replicated in the programme section. 
 
-Furthermore, on several issues interacted with on the project a massive support came from multiple tutors. 
+Furthermore, on several issues interacted with on the project a massive support was drawn from the mentors helping on previous projects as I had no access to tutor support while doing this project.
 
 ## Media 
 
-All images were found on https://www.pexels.com/ and from a kaggs.com database provided through the course material. All images provided are copyright free and readily available on the site for anyone to use. 
+All images were found on https://www.pexels.com/ and from a https://www.kaggle.com/ database provided through the course material. All images provided are copyright free and readily available on the sites for anyone to use. 
 
