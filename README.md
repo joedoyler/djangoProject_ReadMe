@@ -1,8 +1,5 @@
 # YourFIT
 
-Find Cuisine is a directory of recipes made by its users for its users. The aim is to bring a restaurant experience into the households via the sharing of different some of the best meals are users have ever made. 
-The user is provided with all the facilities to set themselves up and including visual aids to go along with their recipes to entice users on what they could be making with images of mouth watering meals.
-
 YourFIT is a fitness application that invites the user to take control of their health and wellbeing to be the best possible version of themselves. The aim is to set up each user with some form of fitness and nutrition plan via purchasing a once off product available on the site or a subscription service where the user is provided a new plan each week. 
 No fitness journey is complete without a proper outfit to take on the world in. That is why YourFIT also provides some clothing options and bundle deals so users who are new to exercise can get themselves kitted out. This way when leavivng the website the new user has both a plan and activewear to begin their new journey. 
 
@@ -106,15 +103,20 @@ Having a page where members of the YourFIT website can display their progress/ t
  * For scaling Bootstrap CDN was used to add a more responsive website
  * Django has been incorporated to handle all of the backend for the project
  * Gitpod used to deploy the project alongside Heroku
- * materialise has been used for certain grid layouts and sidebars
+ * materialise has been used for certain grid layouts and sidebars on the mobile version
  * Font Awesome used for icons displayed throughout the website pages
  * Pillow is being used for processing images on the website products
 
 # Mock Up Designs
 
-## General structure to website
+## General structure to website and rescaling on a mobile device
 
-## How rescaling will work on other devices
+In the link below you will be brought to a folder consisting of two images. One shows the general outline of a rough design to how I want the website to look.
+
+The other is of how I want the mobile version to work taking inspiration from a previous project. It shows a demonstration of how I want the navbar to expand out when clicked. 
+
+https://drive.google.com/drive/folders/1PNapI7VY0qElQZmbSVo3I-s-yhwpEVPF?usp=sharing 
+
  
 # Testing 
 
@@ -199,11 +201,11 @@ To deploy my project to Heroku the following steps were followed:
 
 Heroku has been chosen to host the app for this project.
 
-https://project-4-dcd-find-cuisine.herokuapp.com
+
 
 # GitHub repository link
 
-https://github.com/joedoyler/Project4_DCD_FindCuisine
+
 
 
 # Credits 
@@ -212,7 +214,7 @@ https://github.com/joedoyler/Project4_DCD_FindCuisine
 
 A massive influence for this project came directly from the course content available to students. The Ecommerce Boutique Ado project had many logical similarities to fulfilling some of the needs of the project itself with some features missing from it such as the review section and setting up the exercise and nutrition plans. 
 
-The styling for the index page is influenced by both the course material and https://www.youtube.com/watch?v=Imxx1ClWZj8&t=170s video on creating a gmy website. I found the frontend to be quite visually. This method of picture on left and content on the right is replicated in the programme section. 
+The styling for the index page is influenced by both the course material and https://www.youtube.com/watch?v=KmlMXUxL-nM&t=687s video on creating a gym website. I found the frontend to be quite visually. This method of picture on left and content on the right is replicated in the programme section. 
 
 Furthermore, on several issues interacted with on the project a massive support was drawn from the mentors helping on previous projects as I had no access to tutor support while doing this project.
 
