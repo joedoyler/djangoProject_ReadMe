@@ -1,3 +1,37 @@
+# Table Of Contents
+
+1. Introduction
+    * YourFIT
+2. UX
+    * How to navigate
+    * Clicks to create
+    * User Ambitions
+    * User Stories
+3. Apps and Features
+    * Shopping Cart
+    * Products
+    * Account Set Up and Account Pages
+    * Reviews section
+    * Navigation Bar + Search Bar
+4. Color Scheme
+    * Black and White Theme
+5. Features Left To Implement
+    * Community Chat Pages
+    * Email Service
+6. Technology Used
+7. Mockup Designs
+    * General structure to website and rescaling on a mobile device
+8. Testing
+    * User Stories
+9. Validators
+10. Known issues
+11. Version Control
+12. Deployment
+13. Hosting
+14. Credits
+    * Contents and Acknowledgements
+    * Media
+# 
 # YourFIT
 
 YourFIT is a fitness application that invites the user to take control of their health and wellbeing to be the best possible version of themselves. The aim is to set up each user with some form of fitness and nutrition plan via purchasing a once off product available on the site or a subscription service where the user is provided a new plan each week. 
@@ -58,7 +92,7 @@ Upon clicking on to the website the user can register their soon to be log in de
 
 No two users can have the same username making sure that each user is unique on the website.
 
-## Account Set
+## Account Set Up
 Once registered the user can come back to the web page time and time again and log back in using their registered details. The database indefinitely stores username and password meaning a user can come back at any time and access their recipes and continue on creating them for years to come. 
 
 ## Products
@@ -85,7 +119,7 @@ Upon researching for the general fitness / healthy living vibe some very distinc
 
 # Features Left To Implement
 
-## Emailing service for subscriptions
+## Emailing service
 
 As it stands the users profile page is a rather blank html page that simply displays the users username. 
 
@@ -203,7 +237,7 @@ Heroku has been chosen to host the app for this project.
 
 
 
-# GitHub repository link
+## GitHub repository link
 
 
 
@@ -216,7 +250,7 @@ A massive influence for this project came directly from the course content avail
 
 The styling for the index page is influenced by both the course material and https://www.youtube.com/watch?v=KmlMXUxL-nM&t=687s video on creating a gym website. I found the frontend to be quite visually. This method of picture on left and content on the right is replicated in the programme section. 
 
-Furthermore, on several issues interacted with on the project a massive support was drawn from the mentors helping on previous projects as I had no access to tutor support while doing this project.
+Furthermore, on several issues interacted with on the project a massive support was drawn from knowledge given by mentors on previous projects as I had no access to tutor support while doing this project.
 
 ## Media 
 
