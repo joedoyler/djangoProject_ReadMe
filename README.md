@@ -135,8 +135,6 @@ Given more time I would add it in that on the users profile page their is a sect
 
 Having a page where members of the YourFIT website can display their progress/ thoughts and opionions on a timeline to improve on the community aspect to the app
 
-
-
 # Technologies Used
 
  * HTML, CSS, python and javascript were the programming languages used in the coding of this project.
@@ -188,6 +186,9 @@ The simplistic nav bar layout ensures that you won't be caught out when trying t
 
 Through the shopping cart feature that is seen on the website. When you select "add to bag" the product details you have selected get added to the kart with a tally of everything you have purchased. Then purchasing the products are as simple as checking out, entering your details and paying where Stripe will handle the rest confirming your order with details provided of the purchase. 
 
+## Testing involved with Stripe purchases
+Find screenshot attached of the test runs I did when confirming the purchases had gone through on Stripe.
+
 
 # Validators
 
@@ -198,10 +199,14 @@ No major issues detected.
 ### W3C CSS Validator Service
 No major issues detected. Validator did not understand certain colours selected. These error messages can be ignored. 
 
-# Known issues
-When the user edits a recipe it comes up as a new recipe and they are forced to manually delete their original one.
+### Python Validator 
+Python was validated using http://pep8online.com/.
 
-Odd popout feature occurs for a split second when a recipe is deleted.
+## Javascript Validator
+Javascript validated using https://codebeautify.org/jsvalidate
+
+# Known issues
+On the programmes page the option to have sizes available to you is showing up where it shouldn't be. Solve would be to add it to the kdbb group in shell set up to not add the sizes to other categories. Didn't have enough time to do the edits. 
 
 # Version Control
 
@@ -249,8 +254,6 @@ Heroku has been chosen to host the app for this project.
 
 
 ## GitHub repository link
-
-
 
 
 # Credits 
