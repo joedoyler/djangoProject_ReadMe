@@ -41,14 +41,14 @@ No fitness journey is complete without a proper outfit to take on the world in. 
 # UX
 
 ## How To Navigate
-To ensure the navigation process is as simple as possible the user is greeted with one block of text on the home page. It oulines that they need to register to create their recipes. The add recipes section is also hidden until the registration process has been completed to ensure no confusion is experienced when first viewing the website.
+
 
 Everything else is displayed as a form, something universal to all users to ensure that people aren't confused. Additional button features are kept to a minimum so virtually anyone can navigate the website.
 
 ## Clicks To Create
-The nav bar at the top of each page ensures that there are a limited amount of clicks on each page to get the user to start create and checking out recipes as soon as possible. 
+The nav bar at the top of each page ensures that there are a limited amount of clicks on each page to get the user to start looking for the products they hope to buy from the website. It ensures that the user won't be confused or side tracked clicking through multiple pages just to start the buying process.
 
-Once the user is registered they can get straight to the add recipes section in one click as it is located in the nav bar once they are set up.
+Users can also purchase products without the need to create an account allowing them to get what they desire without having to interact with every single feature on the website.
 
 ## User Ambitions
 The user group for Find Cuisine is anyone with basic computer skills simply looking to find and share recipes in order to: 
@@ -75,12 +75,12 @@ These ambitions are achieved through YourFIT by:
 
 As a general user who is looking to get into a new fitness/nutrition programme, I want to:
 
- * See all available products for purchase and pay using Stripe
- * Have quick access to my purchased goods in terms of 
- * Have reassuring messages flashed on screen to ensure I am doing the right thing on the website
- * Create my own recipes
+ * See all available products for purchase in a way that I desire
+ * Have quick access to my purchased goods in terms of seeing your purchase history on the site
+ * visually see information on what is being offered on the site without having to click through multiple pages
+ * be inspired by the website to take on my new fitness journey
  * Navigate the website without fear of being confused
- * Have the ability to edit / delete recipes in case I make a mistake or want to take my recipe down 
+ * Complete a purchase of products that I have selected from the website
 
 
 # Apps and Features
@@ -107,9 +107,13 @@ The recipes page contains all newly created recipes and dispays them all on to o
 In the image link section of the the Add Recipe form the user can input an image link of their meal and will have it displayed on top of their recipe. This creates both a personal element and aids with visual information as to what exactly a user should expect the meal to look like.  
 
 ## Product Reorganisation
+Users can rearrange the products via the product dropdown menu to category, rating etc. 
+
+## Webhook
+The webhook feature has been added to ensure that a purchase is confirmed with Stripe 
 
 ## Responsive Design
-
+The website is fully responsive with a layout that adapts to small screen sizes all the way down to phones.
 # Colour Scheme 
 
 ## Black and White Theme
@@ -139,7 +143,7 @@ Having a page where members of the YourFIT website can display their progress/ t
  * For scaling Bootstrap CDN was used to add a more responsive website
  * Django has been incorporated to handle all of the backend for the project
  * Gitpod used to deploy the project alongside Heroku
- * sqlite3 
+ * sqlite3 was used for the management of the database
  * Stripe - used for the payment system in the checkout stage of purchasing a product
  * materialise has been used for certain grid layouts and sidebars on the mobile version
  * Font Awesome used for icons displayed throughout the website pages
@@ -158,31 +162,32 @@ https://drive.google.com/drive/folders/1PNapI7VY0qElQZmbSVo3I-s-yhwpEVPF?usp=sha
  
 # Testing 
 
-### As a general user who plays games on the internet, See where my created recipes go
+## As a general user who is looking to get into a new fitness/nutrition programme, I want to:
 
-All newly created recipes by any users are all added to the recipes page where it acts as a directory where anyone can search for their recipes and other users recipes that they have created on the website.
+### See all available products for purchase in a way that I desire
 
-### As a general user I want to have reassuring messages flashed on screen to ensure I am doing the right thing on the website
+When clicking on to the website one of the first things you will see is the dropdown menu navigation bar. "Products being one of the first ones that greets you on the site. In this dropdown the user is able to select an array of different options on how the products are displayed to them such as category or rating for example.
 
-As the user registers, logs in and adds recipes to website they are flashed reassuring messages to say that they have completed that step successfully provided all details entered in are correct. 
+### Have quick access to my purchased goods in terms of seeing your purchase history on the site
 
-### As a general user I want to create my own recipes
+All of the user purchase data is stored on the django database in the backend meaning that when an account is generated the user is able to see all of the purchase goods ensuring they know whether or not they have completed the purchase and keep track of what they have already bought in their own custom account page.
 
-This can be completed via the add recipes page. Once the user has entered all their details and submitted an image link they can simply click on the Add Recipe button and instantly their recipe gets added to the recipe page to be viewed by all.
+### visually see information on what is being offered on the site without having to click through multiple pages
 
-### As a general user I want to have the ability to edit / delete recipes in case I make a mistake or want to take my recipe down
+By scrolling down on the initial homepage you are greeted with a grid layout of content providing you details on what programmes are available on the site, what trainers you can work with and what activewear / clothing bundles are available for purchase
 
-The user can simply click on the recipes page and have two very clear buttons displayed on their recipe where they can choose to either edit or delete. 
+### be inspired by the website to take on my new fitness journey
 
-On clicking delete the recipe will be wiped from the database and no longer be available. 
-
-On clicking edit the user is taken to an edit recipe page where they can edit recipes where the recipe details will be displayed ready for them to edit and change. 
+Again on the home page an inspirational video will start playing to motivate you to take on your fitness journey. 
 
 ### As a general user I want to navigate the website without fear of being confused
 
-The layout of the website was made specifically so there are a minimal amount of clicks to navigate with a minimal amount of buttons to click to progress through a given task.
+The simplistic nav bar layout ensures that you won't be caught out when trying to navigate the site. All features available to you are fully accessible via the first two sections of the home page. All search bar, account and shopping bag features on the first and all product details on the second.
 
-This is also complimented by the idea of having all of the navigation buttons on the 1 lines when looking through the desktop top view. To further ease the process of going through the website a search feature is available so customers who find an item they like and return to the website at a later stage can simply look it up on the search bar. 
+### Complete a purchase of products that I have selected from the website
+
+Through the shopping cart feature that is seen on the website. When you select "add to bag" the product details you have selected get added to the kart with a tally of everything you have purchased. Then purchasing the products are as simple as checking out, entering your details and paying where Stripe will handle the rest confirming your order with details provided of the purchase. 
+
 
 # Validators
 
@@ -261,3 +266,5 @@ Furthermore, on several issues interacted with on the project a massive support 
 ## Media 
 
 All images were found on https://www.pexels.com/ and from a https://www.kaggle.com/ database provided through the course material. All images provided are copyright free and readily available on the sites for anyone to use. 
+
+The video on the home page is a copyright free inspirational video taken from youtube.
