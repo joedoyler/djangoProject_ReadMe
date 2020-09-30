@@ -108,6 +108,8 @@ In the image link section of the the Add Recipe form the user can input an image
 
 ## Product Reorganisation
 
+## Responsive Design
+
 # Colour Scheme 
 
 ## Black and White Theme
@@ -133,17 +135,19 @@ Having a page where members of the YourFIT website can display their progress/ t
 
 # Technologies Used
 
- * HTML, CSS and JQuery were the programming languages used in the coding of this project.
+ * HTML, CSS, python and javascript were the programming languages used in the coding of this project.
  * For scaling Bootstrap CDN was used to add a more responsive website
  * Django has been incorporated to handle all of the backend for the project
  * Gitpod used to deploy the project alongside Heroku
+ * sqlite3 
+ * Stripe - used for the payment system in the checkout stage of purchasing a product
  * materialise has been used for certain grid layouts and sidebars on the mobile version
  * Font Awesome used for icons displayed throughout the website pages
  * Pillow is being used for processing images on the website products
 
 # Mock Up Designs
 
-## General structure to website and rescaling on a mobile device
+## General structure to website and rescaling on a mobile device Ideas
 
 In the link below you will be brought to a folder consisting of two images. One shows the general outline of a rough design to how I want the website to look.
 
@@ -177,6 +181,8 @@ On clicking edit the user is taken to an edit recipe page where they can edit re
 ### As a general user I want to navigate the website without fear of being confused
 
 The layout of the website was made specifically so there are a minimal amount of clicks to navigate with a minimal amount of buttons to click to progress through a given task.
+
+This is also complimented by the idea of having all of the navigation buttons on the 1 lines when looking through the desktop top view. To further ease the process of going through the website a search feature is available so customers who find an item they like and return to the website at a later stage can simply look it up on the search bar. 
 
 # Validators
 
@@ -255,4 +261,3 @@ Furthermore, on several issues interacted with on the project a massive support 
 ## Media 
 
 All images were found on https://www.pexels.com/ and from a https://www.kaggle.com/ database provided through the course material. All images provided are copyright free and readily available on the sites for anyone to use. 
-
